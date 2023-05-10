@@ -1,0 +1,30 @@
+
+.navbar {
+    background-color: #f0daac;
+    .ancho-maximo {
+        max-width: 1150px;
+    }
+    .navbar-collapse {
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.dropdown-item {
+    background-color: #f0daac;
+    padding: 0;
+    --bs-dropdown-bg: #6e583f;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// nav {
+//     div a {
+//         transition: all .55s ease;
+//         &:hover {
+//             border-bottom: 2px solid white;
+//         }
+//     }
+// }
